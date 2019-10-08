@@ -33,3 +33,4 @@ largest_company = companies.max{|company| company.size}
 
 ###Sort the companies from largest to smallest 
 reverse_sorted_companies = companies.sort_by{|company| company.size}.reverse
+binding.pry
